@@ -1,17 +1,16 @@
 package Day10.java;
 public class Codingday10 {
     public static void main(String[] args) {
-      
-        String nama = "Elsa";
-        byte umur = 18;
-        short tahunLahir = 2006;
-        char golonganDarah = 'B';
-        double tinggiBadan = 155.5;
-        boolean masihSekolah = false;
-        boolean sudahKuliah = true;
-        int angkaFavorit = 20;
-        float beratBadan = 52.5f;
-        long angka = 12345678910L;
+        final String nama = "Elsa";
+        final byte umur = 18;
+        final short tahunLahir = 2006;
+        final char golonganDarah = 'B';
+        final double tinggiBadan = 155.5;
+        final boolean masihSekolah = false;
+        final boolean sudahKuliah = true;
+        final int angkaFavorit = 20;
+        final float beratBadan = 52.5f;
+        final long angka = 12345678910L;
         
         System.out.println("Nama:"+ nama);
         System.out.println("Umur:"+ umur);
@@ -27,3 +26,5 @@ public class Codingday10 {
     }
    
 }
+    
+
