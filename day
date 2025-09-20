@@ -1,0 +1,19 @@
+package soalnomor2;
+public class biodata {
+    public static void main(String[] args) {
+        
+        System.out.println("---BIODATA---");
+        
+        String nama = "Budi";
+        int umur = 20;
+        String alamat = "Jakarta";
+        
+        System.out.println("nama:\t"+ nama);
+        System.out.println("umur:\t"+ umur +" tahun");
+        System.out.println("alamat:\t"+ alamat);
+        
+        
+        
+    }
+    
+}
