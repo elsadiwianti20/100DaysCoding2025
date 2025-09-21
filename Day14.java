@@ -10,8 +10,7 @@ public class Codingday14 {
         String g = "B";
         String h = "true";
         
-        
-        //String ka int
+
         byte umur = Byte.parseByte(a);
         short tahunLahir = Short.parseShort(b);
         int angkaFavorit =Integer.parseInt(c);
