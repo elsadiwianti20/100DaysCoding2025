@@ -7,12 +7,14 @@ public class codingday25 {
         
         //increment
         System.out.println("a++ = " + (a++));
-        
         System.out.println("hasil increment =" + a);
       
       
+        
+         byte b = 5;
+        System.out.println("nilai awal = " + b);
+        
         //Decrement 
-        byte b = 5;
         System.out.println("b-- = " + (b--));
         System.out.println("hasil decrement = " + b);
        
