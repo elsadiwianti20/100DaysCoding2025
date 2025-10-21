@@ -11,14 +11,16 @@ public class codingday44 {
 
         String predikat;
 
-        if (nilai >= 85 && nilai <= 100) {
+        if (nilai >= 90 && nilai <= 100) {
             predikat = "A";
-        } else if (nilai >= 70 && nilai < 85) {
+        } else if (nilai >= 80 && nilai < 90) {
             predikat = "B";
-        } else if (nilai >= 55 && nilai < 70) {
+        } else if (nilai >= 70 && nilai < 80) {
             predikat = "C";
-        } else if (nilai >= 0 && nilai < 55) {
+        } else if (nilai >= 60 && nilai < 70) {
             predikat = "D";
+        } else if (nilai >= 0 && nilai < 60) {
+            predikat = "E";
         } else {
             predikat = "Nilai tidak valid!";
         }
