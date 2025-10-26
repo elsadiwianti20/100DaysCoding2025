@@ -6,7 +6,7 @@ public class codingday49 {
         System.out.print("Masukkan umur: ");
         int umur = input.nextInt();
 
-        //operator ternary 
+        //operator ternary
         String kategori = (umur >= 18) ? "Dewasa" : "Anak-anak";
         System.out.println("Kategori umur: " + kategori);
     }
