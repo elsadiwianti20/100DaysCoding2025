@@ -2,7 +2,7 @@ package elsaaaaaa;
 
 public class codingday60 {
     public static void main(String[] args) {
-        int N = 10; 
+        int N = 10;
 
         System.out.println(" Angka Ganjil dari " + N + " ke 1 ");
         for (int i = N; i >= 1; i--) { 
